@@ -91,7 +91,7 @@ body {
 
   .number-candle {
     position: absolute;
-    top: -115px;
+    top: -110px;
     font-size: 120px;
     font-weight: bold;
     color: #fdd835;
@@ -102,18 +102,6 @@ body {
     width: 30px;
   }
   
-  /* Que bấc nhỏ (râu) */
-  .number-candle::before {
-    content: '';
-    position: absolute;
-    top: 32px;
-    left: 160%;
-    width: 2px;
-    height: 15px;
-    background: #555;
-    transform: translateX(-50%);
-    z-index: 5;
-  }
   
   .flame {
     position: absolute;

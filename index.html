@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bánh Dưa Hấu Sinh Nhật</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Âm thanh nền tự động phát -->
+  <audio id="background-music"  loop>
+    <source src="audio/nhac.mp3" type="audio/mp3">
+    
+  </audio>
+
+  <div class="birthday-decor">
+    <div class="ribbons">
+      <div class="ribbon left-ribbon"></div>
+      <div class="ribbon right-ribbon"></div>
+    </div>
+    <div class="falling-hearts"></div>
+    <div class="balloon-release"></div>
+  </div>
+
+  <!-- Màn hình mở đầu -->
+  <div id="greeting-screen" class="greeting-screen">
+    <h1 class="greeting-text">🎉 Chúc Mừng Sinh Nhật!🎉</h1>
+    <p class="greeting-text">Nhấn vào hộp quà.</p>
+    <img src="https://cdn-icons-png.flaticon.com/512/2420/2420548.png" alt="Hộp quà" class="gift-icon" id="open-gift">
+  </div>
+
+  <!-- Bánh dưa hấu -->
+  <div class="cake" style="display: none;">
+    <div class="top">
+      <p class="candle-instruction">thổi nến đi nha(nhấn 🔥) 🎂</p>
+      <div class="number-candle" style="left: 110px;">
+        1
+        <span class="flame"></span>
+      </div>
+      <div class="number-candle" style="left: 145px;">
+        7
+        <span class="flame"></span>
+      </div>
+    </div>
+    <div class="side">
+      <div class="green-base"></div>
+      <div class="seeds side-seeds">
+        <span style="top: 10%; left: 10%;"></span>
+        <span style="top: 30%; left: 30%;"></span>
+        <span style="top: 50%; left: 20%;"></span>
+        <span style="top: 35%; left: 50%;"></span>
+        <span style="top: 20%; left: 70%;"></span>
+        <span style="top: 45%; left: 60%;"></span>
+        <span style="top: 35%; left: 85%;"></span>
+      </div>
+    </div>
+    <div class="seeds top-seeds">
+      <span style="top: 30%; left: 10%;"></span>
+      <span style="top: 50%; left: 20%;"></span>
+      <span style="top: 25%; left: 30%;"></span>
+      <span style="top: 35%; left: 50%;"></span>
+      <span style="top: 50%; left: 60%;"></span>
+      <span style="top: 20%; left: 70%;"></span>
+      <span style="top: 40%; left: 80%;"></span>
+    </div>
+  </div>
+
+  <!-- Thiệp chúc mừng sinh nhật -->
+  <div id="birthday-card" class="birthday-card" style="display: none;">
+    <div class="card-content">
+      <h2>Chúc Mừng Sinh Nhật Người Yêu Của Tui! 🎉</h2>
+      <p>Mong em luôn khỏe mạnh, mỗi ngày đều ngập tràn năng lượng tích cực và tiếng cười 😊💕.  
+        Cảm ơn em vì đã đến bên cạnh tui– dịu dàng mà cũng rất mạnh mẽ 💖🥰.   
+        Tuổi mới rồi, chúc em ngủ ngon hơn 😴, ăn ngon hơn 🍰, và hạnh phúc nhiều hơn nữa 💕💓.   
+        Yêu em nhiều! ❤️😍😘</p>
+      <div class="hearts">
+        <span class="heart">❤️</span>
+        <span class="heart">❤️</span>
+        <span class="heart">❤️</span>
+        <span class="heart">❤️</span>
+      </div>
+      <div class="balloons">
+        <span class="balloon">🎈</span>
+        <span class="balloon">🎈</span>
+        <span class="balloon">🎈</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -50,8 +50,8 @@ function createHeart() {
   const heart = document.createElement('span');
   heart.innerText = '💕';
   heart.style.left = Math.random() * 100 + 'vw';
-  heart.style.animationDuration = (2 + Math.random() * 3) + 's';
-  heart.style.fontSize = (14 + Math.random() * 26) + 'px';
+  heart.style.animationDuration = (5 + Math.random() * 3) + 's';
+  heart.style.fontSize = (50 + Math.random() * 26) + 'px';
   heartsContainer.appendChild(heart);
 
   setTimeout(() => {
@@ -75,8 +75,8 @@ function releaseBalloons() {
         balloon.style.left = Math.random() * 60 + 'vw';
         balloon.style.color = '#fff';
         balloon.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
-        balloon.style.fontSize = (16 + Math.random() * 8) + 'px';
-        balloon.style.animationDuration = (4 + Math.random() * 2) + 's';
+        balloon.style.fontSize = (25 + Math.random() * 8) + 'px';
+        balloon.style.animationDuration = (7 + Math.random() * 2) + 's';
         balloon.style.letterSpacing = '10px';  // Chữ thưa ra
   
         balloonContainer.appendChild(balloon);
@@ -84,7 +84,7 @@ function releaseBalloons() {
         setTimeout(() => {
           balloon.remove();
         }, 7000);
-      }, i * 300); // Cách nhau 300ms
+      }, i * 500); // Cách nhau 300ms
     }
   }
   

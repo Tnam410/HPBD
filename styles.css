@@ -105,8 +105,8 @@ body {
   
   .flame {
     position: absolute;
-    top: 8px;
-    left: 145%;
+    top: 0px;
+    left: 135%;
     width: 20px;
     height: 30px;
     background: radial-gradient(ellipse at bottom, #ffe082 0%, #ff9800 60%, #e65100 100%);

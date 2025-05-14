@@ -91,7 +91,7 @@ body {
 
   .number-candle {
     position: absolute;
-    top: -110px;
+    top: -90px;
     font-size: 120px;
     font-weight: bold;
     color: #fdd835;
@@ -106,7 +106,7 @@ body {
   .flame {
     position: absolute;
     top: 8px;
-    left: 160%;
+    left: 145%;
     width: 20px;
     height: 30px;
     background: radial-gradient(ellipse at bottom, #ffe082 0%, #ff9800 60%, #e65100 100%);
